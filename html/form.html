@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>form</title>
+	</head>
+	<body>
+		<form>
+			<div>
+				<input type="text" min="0" max="1" placeholder="Username" name="name">
+				<input type="password" name="password" placeholder="Password">
+			</div>
+			<div>
+				Choise your color?
+				<input name="color" type="radio" value="red"> Red
+				<input name="color" type="radio" value="green"> Green
+				<input name="color" type="radio" value="blue"> Blue
+			</div>
+			<div>
+				<input name="choise" list="network" placeholder="Enter your state">
+				<datalist id="network">
+					<option value="conected">
+					<option value="offline">
+				</datalist>
+			</div>
+			<input type="submit">
+		</form>
+	</body>
+</html>
